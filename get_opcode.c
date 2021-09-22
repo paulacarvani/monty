@@ -17,6 +17,10 @@ int get_opcode(char *token, unsigned int line, stack_t **stack)
 		{"add", _add},
 		{"nop", _nop},
 		{"sub", _sub},
+		{"div", _div},
+		{"mul", _mul},
+		{"mod", _mod},
+		{"pchar", _pchar},
 		{NULL, NULL}
 	};
 	int i;
