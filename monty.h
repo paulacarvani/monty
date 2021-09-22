@@ -50,5 +50,9 @@ void _swap(stack_t **top, unsigned int line_number);
 void _add(stack_t **top, unsigned int line_number);
 void _nop(stack_t **top, unsigned int line_number);
 void _sub(stack_t **top, unsigned int line_number);
+void _div(stack_t **top, unsigned int line_number);
+void _mul(stack_t **top, unsigned int line_number);
+void _mod(stack_t **top, unsigned int line_number);
+void _pchar(stack_t **top, unsigned int line_number);
 
 #endif
